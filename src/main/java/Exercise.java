@@ -7,9 +7,13 @@ public class Exercise {
     public static void main(String[] args) {
         Input input = new Input();
 
-        boolean result = StringUtils.isNumeric(input.getString());
+//        boolean result = StringUtils.isNumeric(input.getString());
 
-        System.out.println("Result: " + result);
+//        String swapped = StringUtils.swapCase(input.getString());
+
+        String reversed = StringUtils.reverse(input.getString());
+
+        System.out.println("Result: " + reversed);
     }
 
 
